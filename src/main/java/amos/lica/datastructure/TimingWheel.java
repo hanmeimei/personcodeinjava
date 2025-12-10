@@ -14,7 +14,7 @@ public class TimingWheel {
     private int slotSpan; // 100ms for a slot.
 
     private long ticker;
-    private final volatile long startTime;
+    private volatile long startTime;
     private final AtomicBoolean started;
 
     private final List<MultiProducerSingleConsumerQueue<DelayTask>> slots;

@@ -27,6 +27,6 @@ public class TimingWheelTest {
             }).start();
         }
 
-        Thread.sleep(15000);
+        Thread.sleep(10000);
     }
 }
